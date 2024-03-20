@@ -1,11 +1,11 @@
 
-import TaskList from './TaskList.vue';
+import PureTaskList from './PureTaskList.vue';
 
 import * as TaskStories from './Task.stories';
 
 export default {
-  component: TaskList,
-  title: 'TaskList',
+  component: PureTaskList,
+  title: 'PureTaskList',
   tags: ['autodocs'], // TODO 'autodocs'をつけるとDocsが自動生成される
   decorators: [() => ({ template: '<div style="margin: 3em;"><story/></div>' })],  // TODO storybookを表示するときに見やすくするための装飾
   argTypes: {
